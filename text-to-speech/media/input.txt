@@ -1,0 +1,14 @@
+Artificial intelligence is transforming the world.
+
+From healthcare to education, AI systems are helping
+people work more efficiently and make better decisions.
+
+This video demonstrates a simple text-to-speech pipeline
+built with Python, gTTS, and MoviePy.
+
+First, the program reads this text file.
+Next, it converts the text into spoken audio.
+Finally, it combines the audio with a video background
+and exports the result as an MP4 file.
+
+Simple. Automated. Powerful.
