@@ -2,7 +2,7 @@ from gtts import gTTS
 from moviepy.editor import *
 
 # Step 1: Read text file
-with open("media/input.txt", "r", encoding="utf-8") as file:
+with open("input.txt", "r", encoding="utf-8") as file:
     text = file.read()
 
 # Step 2: Convert text to speech
