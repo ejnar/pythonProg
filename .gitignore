@@ -1,7 +1,7 @@
 **/venv/
 **/__pycache__/
 **/*.pyc
-**/media/
+**/media/*.*
 **/.DS_Store
 .DS_STore
 
