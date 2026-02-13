@@ -1,0 +1,25 @@
+Question 1: How many number of ec2 instances can be attached to a multi-attach EBS volume?
+Answer: 16 EC2 instances at a time.
+---
+Question 2: Why use a Load Balancer?
+Answer: 
+• Spread load across multiple downstream instances.
+• Expose a single point of access (DNS) to your application.
+• Seamlessly handle failures of downstream instances.
+• Do regular health checks to your instances.
+• Provide SSL termination (HTTPS) for your websites.
+• Enforce stickiness with cookies.
+• High availability across zones.
+• Separate public traffic from private traffic.
+---
+Question 3: Latency difference between NLB and ALB?
+Answer: 100ms for NLB and 400ms for ALB.
+
+Question 4: when application needs to be accessed only with few specific static IPs?
+Answer: think of NLB.
+
+Question 5: What is the use of X-Forwarded-For header, X-Forwarded-Port header and X-Forwarded-Proto header?
+Answer:
+• X-Forwarded-For header - this is used to get the IP address of clients connected to your website.
+• X-Forwarded-Port header - this is used to get the port number of clients connected to your website.
+• X-Forwarded-Proto header - this is used to get the protocol of clients connected to your website.
