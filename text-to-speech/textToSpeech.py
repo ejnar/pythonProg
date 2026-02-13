@@ -1,5 +1,11 @@
 from gtts import gTTS
 from moviepy.editor import *
+from pathlib import Path
+
+# Create a directory
+Path("media").mkdir()
+
+
 
 # Step 1: Read text file
 with open("input.txt", "r", encoding="utf-8") as file:
